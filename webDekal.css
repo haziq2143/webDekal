@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+
+.navbar {
+  background-color: #000068;
+  color: white;
+}
+.navbar span {
+  text-shadow: 0 0 5px rgb(15, 15, 15), 0 0 5px rgb(200, 200, 201), 0 0 5px rgb(203, 203, 206), 0 0 5px rgb(233, 233, 233), 0 0 5px rgb(255, 255, 255);
+}
+.jumbotron h1 {
+  text-shadow: 0 0 5px rgb(15, 15, 15), 0 0 5px rgb(190, 190, 190), 0 0 5px rgb(227, 227, 230), 0 0 5px rgb(240, 239, 239), 0 0 5px rgb(255, 255, 255);
+}
+marquee {
+  padding: 2px;
+  background-color: #1c1c84;
+  color: white;
+}
+.jumbotron {
+  background-color: #000042;
+  padding: 50px;
+}
+.card {
+  margin: 20px;
+}
+.textShadow {
+  font-family: 'kaushan';
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+  text-shadow: 0 0 5px white, 0 0 10px rgb(13, 1, 121), 0 0 10px rgb(15, 4, 172), 0 0 10px rgb(19, 4, 185), 0 0 10px rgb(37, 13, 248);
+}
+.card {
+  box-shadow: 0 0 5px white, 0 0 10px rgb(16, 4, 128), 0 0 10px rgb(16, 6, 151), 0 0 10px rgb(21, 8, 172), 0 0 10px rgb(255, 255, 255);
+  padding: 10px;
+  margin: 30px;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+footer h3 {
+  padding: 10px;
+  text-decoration: underline;
+  text-shadow: 0 0 5px rgb(15, 15, 15), 0 0 5px rgb(200, 200, 201), 0 0 5px rgb(203, 203, 206), 0 0 5px rgb(233, 233, 233), 0 0 5px rgb(255, 255, 255);
+}
+footer {
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: 'Kaushan';
+  src: url(KaushanScript-Regular.woff);
+}
