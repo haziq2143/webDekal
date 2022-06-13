@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #19191a;
 }
 
 .navbar {
@@ -13,9 +13,10 @@ body {
   text-shadow: 0 0 5px rgb(15, 15, 15), 0 0 5px rgb(190, 190, 190), 0 0 5px rgb(227, 227, 230), 0 0 5px rgb(240, 239, 239), 0 0 5px rgb(255, 255, 255);
 }
 marquee {
-  padding: 2px;
+  padding: 5px;
   background-color: #1c1c84;
   color: white;
+  font-family: 'Kaushan';
 }
 .jumbotron {
   background-color: #000042;
@@ -34,8 +35,8 @@ marquee {
 }
 .card {
   box-shadow: 0 0 5px white, 0 0 10px rgb(16, 4, 128), 0 0 10px rgb(16, 6, 151), 0 0 10px rgb(21, 8, 172), 0 0 10px rgb(255, 255, 255);
-  padding: 10px;
-  margin: 30px;
+  padding: 5px;
+  margin: 10px;
 }
 html,
 body {
@@ -50,8 +51,8 @@ footer h3 {
 footer {
   margin-top: 30px;
 }
-
-@font-face {
-  font-family: 'Kaushan';
-  src: url(KaushanScript-Regular.woff);
+.card.materi {
+  margin: 20px auto;
+  /* text-align: center; */
+  width: 90%;
 }
